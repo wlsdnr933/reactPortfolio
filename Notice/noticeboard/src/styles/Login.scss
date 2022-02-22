@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+th {
+  line-height: 10%;
+  float: left;
+}
+.inputLogin {
+  width: 50%;
+  height: 30%;
+}
+.spacebar {
+  padding-left: 5%;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 830px) and (max-width: 1719px) {
+  th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Login-Stext {
+    margin-left: 25%;
+    margin-top: 18%;
+  }
+  .Login-Stext span {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .Login-Stext td {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1%;
+  }
+  .spacebar {
+    display: block;
+    padding-left: 0;
+  }
+  .Login-bg {
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+  }
+  .Login-sbg {
+    width: 100%;
+  }
+}
